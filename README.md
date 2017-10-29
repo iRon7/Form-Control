@@ -1,16 +1,16 @@
 Syntax
 ------
 
-**Creating a control**
+**Creating a control**  
 `<System.Windows.Forms.Control> = Form-Control [-Control <String>] [-Member <HashTable>]`
    
-**Modifying a control**
+**Modifying a control**  
 `<Void> = Form-Control [-Control <System.Windows.Forms.Control>] [-Member <HashTable>]`
    
-**Adding a (new) control to a container**
+**Adding a (new) control to a container**  
 `<System.Windows.Forms.Control> = Form-Control [-Control <String>|<System.Windows.Forms.Control>] [-Member <HashTable>] [-Add <System.Windows.Forms.Control[]>]`
    
-**Piping a container to a (new) control**
+**Piping a container to a (new) control**  
 `<System.Windows.Forms.Control> = <System.Windows.Forms.Control> | Form-Control [-Control <String>|<System.Windows.Forms.Control>] [-Member <HashTable>] [-Set <HashTable>] [-PassParent]`
 
 Parameters
